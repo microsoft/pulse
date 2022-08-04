@@ -5,7 +5,7 @@
 
 Pulse is a [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) library defining a common interface. Pulse's common interface allows you to develop metrics libraries that abstract an underlying monitoring system in a test-driven way.
 
-Abstracted metrics libraries are helpful in the event the underlying monitoring system changes. Whether the underlying metrics library experiences breaking changes or [you decide to do a complete swap of the underlying metrics library](#switching-to-a-new-metrics-library), rest assured that you will only have to update the abstracted library and not your service code.
+Abstracted metrics libraries are helpful in the event the underlying monitoring system changes. Whether the underlying monitoring library experiences breaking changes or [you decide to do a complete swap of the underlying monitoring library](#switching-to-a-new-metrics-library), rest assured that you will only have to update the abstracted library and not your service code.
 
 ## Download
 
