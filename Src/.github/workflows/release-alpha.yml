@@ -19,4 +19,4 @@ jobs:
       run: dotnet nuget push NuGet.Workflow.${VERSION}.nupkg --source https://nuget.pkg.github.com/pulse/index.json --api-key ${PULSE_PACKAGE_PUBLISH}
       env:
         PULSE_PACKAGE_PUBLISH: ${{ secrets.pulse_package_publish }}
-        
+ 
