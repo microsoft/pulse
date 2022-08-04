@@ -20,6 +20,6 @@ jobs:
     - name: Pack
       run: dotnet pack src --configuration Release /p:Version=${VERSION} --no-build --output .
     - name: Push
-      run: dotnet nuget push pulse.${VERSION}.nupkg --source https://nuget.pkg.github.com/pulse/index.json --api-key ${PULSE_PACKAGE_PUBLISH}
+      run: dotnet nuget push pulse.${VERSION}.nupkg --source https://nuget.pkg.github.com/microsoft/pulse/index.json --api-key ${PULSE_PACKAGE_PUBLISH}
       env:
         PULSE_PACKAGE_PUBLISH: ${{ secrets.pulse_package_publish }}
