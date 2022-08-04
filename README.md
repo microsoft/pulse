@@ -1,5 +1,5 @@
 # pulse
-[![Build Status](https://github.com/microsoft/pulse/actions/workflows/ci.yml/ci.svg?branch=main)](https://github.com/microsoft/pulse/actions/workflows/ci.yml)
+[![Build Status](https://github.com/microsoft/pulse/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/microsoft/pulse/actions/workflows/build.yml)
 [![Nuget](https://img.shields.io/nuget/v/pulse.svg)](https://www.nuget.org/packages/pulse/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/microsoft/pulse/blob/main/LICENSE)
 
@@ -11,7 +11,7 @@ Abstracted metrics libraries are helpful in the event the underlying monitoring 
 
 [pulse](https://www.nuget.org/packages/pulse/) is distributed via the NuGet gallery.
 
-## Projects that use pulse
+## Projects Using pulse
 
 * [pulse-prometheus](https://github.com/microsoft/pulse-prometheus)
 
