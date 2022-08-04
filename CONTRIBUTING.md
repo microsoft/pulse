@@ -15,4 +15,5 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 ## Build & Code Requirements
 * The project must build with no warnings or errors.
-* The project must strictly follow the stylecop.
+* The project must follow the stylecop.
+* The version tag of your commit must be in the format of `v[0-9]+.[0-9]+.[0-9]+` and match the version in `pulse.csproj`.

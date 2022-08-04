@@ -10,6 +10,9 @@
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\common.ruleset</CodeAnalysisRuleSet>
     <IncludeSymbols>true</IncludeSymbols>
     <Version>1.0.0-alpha.1</Version>
+    <PackageId>pulse</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/pulse</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
