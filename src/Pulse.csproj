@@ -9,11 +9,21 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\common.ruleset</CodeAnalysisRuleSet>
     <IncludeSymbols>true</IncludeSymbols>
-    <Version>1.0.0-alpha.1</Version>
+    <Version>1.0.1-alpha.1</Version>
     <PackageId>pulse</PackageId>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pulse</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Title>Pulse</Title>
+    <Description>A common interface for building metrics libraries.</Description>
+    <Copyright>The Microsoft Corporation licenses this package to you under the MIT license. See the LICENSE file in the project root for more information.</Copyright>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
     <PackageReference Include="coverlet.collector" Version="3.1.0">
