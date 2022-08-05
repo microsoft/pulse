@@ -14,7 +14,7 @@ namespace Pulse.Interfaces
         /// <summary>
         /// Observes a single event with the given value.
         /// </summary>
-        /// <param name="value">Measured value.</param>
+        /// <param name="value">Measured <see cref="double"/> value.</param>
         public void Observe(double value);
 
         /// <summary>

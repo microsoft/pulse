@@ -7,9 +7,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Company>Microsoft</Company>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\common.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)..\common.ruleset</CodeAnalysisRuleSet>
     <IncludeSymbols>true</IncludeSymbols>
-    <Version>1.0.0-alpha.1</Version>
+    <Version>1.0.0-alpha.2</Version>
     <PackageId>pulse</PackageId>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pulse</RepositoryUrl>
@@ -22,6 +22,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Include="$(MSBuildThisFileDirectory)\stylecop.json"/>
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)..\stylecop.json"/>
   </ItemGroup>
 </Project>
