@@ -22,6 +22,7 @@ Abstracted metrics libraries are helpful in the event the underlying monitoring 
 * If a [pulse-project](#projects-that-use-pulse) does not exist for the metric monitoring system you need to use, you can easily create one by implementing the [pulse](#pulse) common interface.
 
 ## Contributing
+
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Trademarks
