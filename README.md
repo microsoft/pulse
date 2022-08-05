@@ -15,7 +15,7 @@ Abstracted metrics libraries are helpful in the event the underlying monitoring 
 
 * [pulse-prometheus](https://github.com/microsoft/pulse-prometheus)
 
-## Switching to a New Metrics Library?
+## Switching to a Different Metrics Library?
 
 * All [pulse-projects](#projects-that-use-pulse) implement the [pulse](#pulse) interface, meaning all [pulse-projects](#projects-that-use-pulse) are interchangable. 
 * If you need to change monitoring systems in the future, you can do so without having to change your projects code!
