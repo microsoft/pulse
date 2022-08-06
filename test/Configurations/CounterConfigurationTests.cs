@@ -42,15 +42,15 @@ namespace Pulse.UnitTests.Configurations
         }
 
         /// <summary>
-        /// Tests that we are able to get and set variable label names.
+        /// Tests that we are able to get and set mutable label names.
         /// </summary>
         [TestMethod]
-        public void TestVariableLabelNamesGetAndSet()
+        public void TestMutableLabelNamesGetAndSet()
         {
-            config.VariableLabelNames.Should().BeNull();
-            var variableLabelNames = new string[] { "foo", "bar" };
-            config.VariableLabelNames = variableLabelNames;
-            Assert.IsTrue(config.VariableLabelNames.SequenceEqual(variableLabelNames));
+            config.MutableLabelNames.Should().BeNull();
+            var mutableLabelNames = new string[] { "foo", "bar" };
+            config.MutableLabelNames = mutableLabelNames;
+            Assert.IsTrue(config.MutableLabelNames.SequenceEqual(mutableLabelNames));
         }
 
         /// <summary>

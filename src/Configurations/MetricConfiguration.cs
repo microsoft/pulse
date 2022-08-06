@@ -21,10 +21,10 @@ namespace Pulse.Configurations
         public Dictionary<string, string>? ImmutableLabels { get; set; }
 
         /// <summary>
-        /// Gets or sets label names for the metric.
+        /// Gets or sets mutable label names for the metric.
         /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.SpacingRules", "SA1011:Closing square brackets should be spaced correctly", Justification = "Null type")]
-        public string[]? VariableLabelNames { get; set; }
+        public string[]? MutableLabelNames { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the metric should be emitted
