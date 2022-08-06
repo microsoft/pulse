@@ -6,20 +6,17 @@
 
 namespace Pulse.Configurations
 {
+    #nullable enable
+
     /// <summary>
     /// Defines a histogram's configuration.
     /// </summary>
     public class HistogramConfiguration : MetricConfiguration
     {
         /// <summary>
-        /// Default buckets.
-        /// </summary>
-        public static readonly double[] DefaultBuckets = { .005, .01, .025, .05, .075, .1, .25, .5, .75, 1, 2.5, 5, 7.5, 10 };
-
-        /// <summary>
         /// Gets or sets buckets for the histogram.
         /// </summary>
-        /// <remarks>By default, we set the buckets to { .005, .01, .025, .05, .075, .1, .25, .5, .75, 1, 2.5, 5, 7.5, 10 }.</remarks>
-        public double[] Buckets { get; set; } = DefaultBuckets;
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.SpacingRules", "SA1011:Closing square brackets should be spaced correctly", Justification = "Null type")]
+        public double[]? Buckets { get; set; }
     }
 }

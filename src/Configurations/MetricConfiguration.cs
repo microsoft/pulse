@@ -6,6 +6,8 @@
 
 namespace Pulse.Configurations
 {
+    #nullable enable
+
     using System.Collections.Generic;
 
     /// <summary>
@@ -16,12 +18,13 @@ namespace Pulse.Configurations
         /// <summary>
         /// Gets or sets immutable labels for the metric.
         /// </summary>
-        public Dictionary<string, string> ImmutableLabels { get; set; } = null;
+        public Dictionary<string, string>? ImmutableLabels { get; set; }
 
         /// <summary>
         /// Gets or sets label names for the metric.
         /// </summary>
-        public string[] VariableLabelNames { get; set; } = null;
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.SpacingRules", "SA1011:Closing square brackets should be spaced correctly", Justification = "Null type")]
+        public string[]? VariableLabelNames { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the metric should be emitted
