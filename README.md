@@ -1,5 +1,6 @@
 # pulse
 [![Build Status](https://github.com/microsoft/pulse/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/microsoft/pulse/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/microsoft/pulse/branch/main/graph/badge.svg?token=BJH0u9ZUcC)](https://codecov.io/gh/microsoft/pulse)
 [![Nuget](https://img.shields.io/nuget/v/pulse.svg)](https://www.nuget.org/packages/pulse/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/microsoft/pulse/blob/main/LICENSE)
 
