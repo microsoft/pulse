@@ -3,7 +3,7 @@
 [![Nuget](https://img.shields.io/nuget/v/pulse.svg)](https://www.nuget.org/packages/pulse/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/microsoft/pulse/blob/main/LICENSE)
 
-Pulse is a .NET library defining a common interface and metric configuration. Pulse's common interface allows you to develop metrics libraries that abstract an underlying monitoring system in a test-driven way.
+Pulse is a .NET library defining a common interface and metric configurations. Pulse's common interface allows you to develop metrics libraries that abstract an underlying monitoring system in a test-driven way.
 
 Abstracted metrics libraries are helpful in the event the underlying monitoring system changes. Whether the underlying monitoring library experiences breaking changes or [you decide to do a complete swap of the underlying monitoring library](#switching-to-a-different-metrics-library), rest assured that you will only have to update the abstracted library and not your service code.
 

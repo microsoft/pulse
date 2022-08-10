@@ -17,4 +17,4 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 * The project must build with no warnings or errors.
 * The project must follow the stylecop.
 * The project must have 100% code coverage and pass all tests.
-* The version tag of your commit must be in the format of `v[0-9]+.[0-9]+.[0-9]+` and match the version in `pulse.csproj` when releasing.
+* The version tag of your commit must be in the format of `v[0-9]+.[0-9]+.[0-9]+` and match the version in `Pulse.csproj` when releasing.

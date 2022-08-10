@@ -9,7 +9,7 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)..\common.ruleset</CodeAnalysisRuleSet>
     <IncludeSymbols>true</IncludeSymbols>
-    <Version>1.0.0-alpha.4</Version>
+    <Version>1.0.0-alpha.5</Version>
     <PackageId>pulse</PackageId>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pulse</RepositoryUrl>
