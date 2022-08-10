@@ -22,7 +22,7 @@ jobs:
       uses: codecov/codecov-action@v3
       with:
         fail_ci_if_error: true
-        files: /home/runner/work/pulse/pulse/test/coverage.net5.0.opencover.xml
+        files: /home/runner/work/pulse/pulse/test/Configurations/coverage.net5.0.opencover.xml
         name: net5-code-coverage
         token: ${{ secrets.CODECOV_TOKEN }}
         verbose: true
@@ -30,7 +30,7 @@ jobs:
       uses: codecov/codecov-action@v3
       with:
         fail_ci_if_error: true
-        files: /home/runner/work/pulse/pulse/test/coverage.net6.0.opencover.xml
+        files: /home/runner/work/pulse/pulse/test/Configurations/coverage.net6.0.opencover.xml
         name: net6-code-coverage
         token: ${{ secrets.CODECOV_TOKEN }}
         verbose: true
