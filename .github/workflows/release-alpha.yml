@@ -1,3 +1,5 @@
+name: Release Alpha
+
 on:
   push:
     tags:

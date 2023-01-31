@@ -1,3 +1,5 @@
+name: Release Main
+
 on:
   push:
     tags:
