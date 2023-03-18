@@ -8,7 +8,7 @@ Pulse is a .NET library defining a common interface and metric configurations. P
 
 Abstracted metrics libraries are helpful in the event the underlying monitoring system changes. Whether the underlying monitoring library experiences breaking changes or [you decide to do a complete swap of the underlying monitoring library](#switching-to-a-different-metrics-library), rest assured that you will only have to update the abstracted library and not your service code.
 
-The library targets net5 and net6.
+The library targets net5, net6, and net7.
 
 ## Download
 
