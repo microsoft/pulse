@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
-    <Authors>dongrote;microsoftielogan</Authors>
+    <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+    <Authors>dongrote;shinypancake</Authors>
     <IsPackable>false</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RootNamespace>Pulse.UnitTests</RootNamespace>
