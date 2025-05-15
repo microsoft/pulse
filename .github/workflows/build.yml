@@ -34,14 +34,6 @@ jobs:
       run: dotnet build src --configuration Release
     - name: Configuration Tests
       run: dotnet test test --configuration Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-    - name: Upload net5 Code Coverage to Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        fail_ci_if_error: true
-        files: /home/runner/work/pulse/pulse/test/coverage.net5.0.opencover.xml
-        name: net5-code-coverage
-        token: ${{ secrets.CODECOV_TOKEN }}
-        verbose: true
     - name: Upload net6 Code Coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
