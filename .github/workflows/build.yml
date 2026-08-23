@@ -13,17 +13,17 @@ jobs:
     timeout-minutes: 15
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
     - name: Setup .NET 6.0
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@55ec9447dda3d1cf6bd587150f3262f30ee10815 # v3.4.2
       with:
         dotnet-version: 6.0.x
     - name: Setup .NET 7.0
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@55ec9447dda3d1cf6bd587150f3262f30ee10815 # v3.4.2
       with:
         dotnet-version: 7.0.x
     - name: Setup .NET 8.0
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@55ec9447dda3d1cf6bd587150f3262f30ee10815 # v3.4.2
       with:
         dotnet-version: 8.0.x
     - name: Build
@@ -31,7 +31,7 @@ jobs:
     - name: Configuration Tests
       run: dotnet test test --configuration Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
     - name: Upload net6 Code Coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@ab904c41d6ece82784817410c45d8b8c02684457 # v3.1.6
       with:
         fail_ci_if_error: true
         files: /home/runner/work/pulse/pulse/test/coverage.net6.0.opencover.xml
@@ -39,7 +39,7 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
         verbose: true
     - name: Upload net7 Code Coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@ab904c41d6ece82784817410c45d8b8c02684457 # v3.1.6
       with:
         fail_ci_if_error: true
         files: /home/runner/work/pulse/pulse/test/coverage.net7.0.opencover.xml
@@ -47,7 +47,7 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
         verbose: true
     - name: Upload net8 Code Coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@ab904c41d6ece82784817410c45d8b8c02684457 # v3.1.6
       with:
         fail_ci_if_error: true
         files: /home/runner/work/pulse/pulse/test/coverage.net8.0.opencover.xml
